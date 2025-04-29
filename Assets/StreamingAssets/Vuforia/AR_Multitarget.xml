@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+    <Tracking>
+        <ImageTarget name="caliper_box.Bottom" size="23.799999 11.832290"/>
+        <ImageTarget name="caliper_box.Right" size="11.830000 31.732832"/>
+        <ImageTarget name="caliper_box.Back" size="23.799999 31.738976"/>
+        <ImageTarget name="caliper_box.Front" size="23.799999 31.738976"/>
+        <ImageTarget name="caliper_box.Top" size="23.799999 11.832290"/>
+        <ImageTarget name="caliper_box.Left" size="11.830000 31.732832"/>
+        <MultiTarget name="caliper_box">
+            <Part name="caliper_box.Left" translation="-11.899999618530273 0 0" rotation="AD: 0 1 0 -90"/>
+            <Part name="caliper_box.Right" translation="11.899999618530273 0 0" rotation="AD: 0 1 0 90"/>
+            <Part name="caliper_box.Front" translation="0 0 5.914999961853027" rotation="AD: 1 0 0 0"/>
+            <Part name="caliper_box.Back" translation="0 0 -5.914999961853027" rotation="AD: 0 1 0 180"/>
+            <Part name="caliper_box.Top" translation="0 15.875 0" rotation="AD: 1 0 0 -90"/>
+            <Part name="caliper_box.Bottom" translation="0 -15.875 0" rotation="AD: 1 0 0 90"/>
+        </MultiTarget>
+    </Tracking>
+</QCARConfig>
